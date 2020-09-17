@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');      
 *{
     box-sizing:border-box;
 }
@@ -14,6 +20,7 @@ header{
     width: 80%;
     top: 0px;
     padding: 12px;
+    padding-top: 30px;
 
 }
 
@@ -126,20 +133,107 @@ main section h5{
 #paper{
     background-image: url(../img/list-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 500px;
+    width: 1200px;
   
 }
 
 #checkLeft{
     float: left;
     list-style-image: url(../img/unchecked.png);
-    margin-left: 25%;
+    margin-left: 15%;
+    font-family: cursive;
+    color: #988d7f;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 500;
 }
+
 
 #checkRight{
     float: right;
     list-style-image: url(../img/unchecked.png);
-    margin-right: 40%;
+    margin-right: 20%;
+    font-family: cursive;
+    color: #988d7f;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 500;
 }
 
+.crossed{
+    list-style-image: url(../img/checked.png);
+    text-decoration: line-through;
+
+}
+
+#profile{
+    padding-top: 15px;
+}
+
+#profile img{
+    float: left;
+}
+
+#profile h3{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 20px;    
+    padding-left: 70px;
+    line-height: 2em;
+}
+
+#profile h5{
+    color: #8A8578 ;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-transform: none;
+    font-size: 20px;
+    width: 50%;
+}
+
+button {
+    margin-left: 330px;
+    border: none;
+    background: #bc7058;
+    color: #FFF;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: 25px;
+
+}
+  button:hover {
+    background-color:  #0f0f0f;
+    color: #ffffff;
+    transition-delay: 350ms;
+  }
+
+  footer{
+      margin-top: 60px;
+      text-align: center;
+      position: relative;
+  }
+
+  footer p img{
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+  }
+     
+  /*
+  footer p{
+      z-index: 40;
+  }
+  footer img{
+    position: absolute;
+    z-index: 50;
+    padding-bottom: ;
+  }
+  */
+
+ 
+       

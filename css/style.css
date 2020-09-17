@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');      
+     
 *{
     box-sizing:border-box;
 }
@@ -146,7 +147,7 @@ main section h5{
     font-family: cursive;
     color: #988d7f;
     font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 2em;
     font-weight: 500;
 }

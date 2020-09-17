@@ -189,7 +189,7 @@ main section h5{
 }
 
 #profile h5{
-    color: #8A8578 ;
+    color: #8A8578;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 20px;
     text-transform: none;
@@ -220,9 +220,17 @@ button {
       position: relative;
   }
 
-  footer p img{
+
+  footer img{
       margin-bottom: 10px;
       padding-bottom: 10px;
+  }
+
+  footer p{
+      color: #8A8578;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 20px;
+
   }
      
 
